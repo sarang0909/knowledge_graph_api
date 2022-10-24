@@ -31,10 +31,10 @@ Refer my <a href="https://github.com/sarang0909/custom_ner_api">Custom NER</a> p
 We can get different words/nouns for same entity. Example, U.S,United States of America,America. All these should be considered as one entity. We can achieve this by getting their root id if we have some knowledge base. Here, we are going to use Wikipedia knowledge. So, many time entity linking is also called as wikification.          
 4.Relationship Extraction     
 It means fetching relationships in text.     
-I've explored couple of libraries- Stanford Open IE and rebel libraries. 
+I've explored couple of libraries- <a href="https://pypi.org/project/stanford-openie/1.0.1/"> Stanford Open IE</a> and <a href="https://github.com/Babelscape/rebel">rebel</a> libraries. 
 I selected rebel for my final implementation because Stanford Open IE output was little redundant and it is slow.      
 5.Knowledge Graph Creation     
-I've explored Neo4j in notebook and networkx in notebook for KG creation and selected networkx just because ease of use for visualization. We should go for more powerful neo4j if want to use graph databases and perform further analysis but we are not doing that here.      
+I've explored neo4j python wrapper <a href="https://py2neo.org/2021.1/">py2neo</a> and <a href="https://networkx.org/">networkx</a> in a <a href="https://github.com/sarang0909/knowledge_graph_api/blob/master/src/training/graph_visualization.ipynb">notebook</a> and selected networkx just because ease of use for visualization. We should go for more powerful neo4j if want to use graph databases and perform further analysis but we are not doing that here.      
 
 
 
