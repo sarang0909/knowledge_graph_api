@@ -3,7 +3,7 @@
 
 ## About  
 This is a project developed to create a code template for knowledge graph production ready api.    
-Please note that information extraction model training is not done in this project.We've just used babel library and processed it's output.   
+Please note that information extraction model training is not done in this project.We've just used <a href="https://github.com/Babelscape/rebel">rebel</a> library and processed it's output.   
 
 
 The basic code template for this project is derived from my another repo <a href="https://github.com/sarang0909/Code_Template">code template</a> 
@@ -30,7 +30,7 @@ Refer my <a href="https://github.com/sarang0909/custom_ner_api">Custom NER</a> p
 3.Entity Linking/Entity Disambiguation      
 We can get different words/nouns for same entity. Example, U.S,United States of America,America. All these should be considered as one entity. We can achieve this by getting their root id if we have some knowledge base. Here, we are going to use Wikipedia knowledge. So, many time entity linking is also called as wikification.          
 4.Relationship Extraction     
-It means fetching relationship in text.     
+It means fetching relationships in text.     
 I've explored couple of libraries- Stanford Open IE and rebel libraries. 
 I selected rebel for my final implementation because Stanford Open IE output was little redundant and it is slow.      
 5.Knowledge Graph Creation     
@@ -125,10 +125,7 @@ Here we have created ML inference on FastAPI server with dummy model output.
 
 
 
-https://user-images.githubusercontent.com/31824267/197603806-3c9c1705-661c-402e-86dc-21e4ecbb30ab.mp4
-
-
-
+https://user-images.githubusercontent.com/31824267/197103122-55ef93dd-929b-46ca-87e0-653e270eea16.mp4
 
 
  
