@@ -125,7 +125,10 @@ Here we have created ML inference on FastAPI server with dummy model output.
 
 
 
-https://user-images.githubusercontent.com/31824267/197103122-55ef93dd-929b-46ca-87e0-653e270eea16.mp4
+https://user-images.githubusercontent.com/31824267/197603806-3c9c1705-661c-402e-86dc-21e4ecbb30ab.mp4
+
+
+
 
 
  
